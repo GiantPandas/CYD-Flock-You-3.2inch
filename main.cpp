@@ -23,7 +23,7 @@
 #define BUZZER_PIN 26
 #define USE_BUZZER 1
 
-#define CYD_TFT_BACKLIGHT_PIN 21
+#define CYD_TFT_BACKLIGHT_PIN 27
 #define CYD_BOOT_BUTTON_PIN   0
 #define CYD_SD_CS_PIN         5
 #define CYD_LOG_FILE          "/flock.csv"
@@ -36,9 +36,9 @@
 #define CYD_TFT_H      240
 #define CYD_ROTATION_DEBOUNCE_MS 300
 #define CYD_TOUCH_IRQ_PIN     36
-#define CYD_TOUCH_MISO_PIN    39
-#define CYD_TOUCH_MOSI_PIN    32
-#define CYD_TOUCH_CLK_PIN     25
+#define CYD_TOUCH_MISO_PIN    12
+#define CYD_TOUCH_MOSI_PIN    13
+#define CYD_TOUCH_CLK_PIN     14
 #define CYD_TOUCH_CS_PIN      33
 
 // Dynamic screen dimensions, updated when rotation changes.
